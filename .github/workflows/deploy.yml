@@ -26,8 +26,8 @@ jobs:
       - name: Build site
         run: |
           mkdir -p _site
-          cp vromon-bilashi.html _site/index.html
-          cp vromon-bilashi.html _site/vromon-bilashi.html
+          cp index.html _site/index.html
+          cp index.html _site/vromon-bilashi.html
           touch _site/.nojekyll
 
       - uses: actions/configure-pages@v5
